@@ -45,12 +45,77 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container mt-3">
         <h2> Celkové príjmy - výdavky</h2>
         <div class="row text-center"> 
             <div class="col headline-size">
                 <span class="badge badge-pill badge-success">20 000</span> -
                 <span class="badge badge-pill badge-danger">22 000</span>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h1> Tento mesiac</h1>
+        <div class="row">
+            <div class="col">
+                <p> príjem: <span class="text-success">1100</span></p>
+                <p> výdavky: <span class="text-danger">650</span></p>
+                (ja viem, ze to moc nevychadza, nejdem to pocitat, je to len na ukazku)
+            </div>
+            <div class="col">
+                <canvas id="mojGraf1" width="100" height="100"></canvas>
+            </div>
+            <div class="col">
+                <canvas id="mojGraf2" width="100" height="100"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h1> Minulý mesiac</h1>
+        <div class="row">
+            <div class="col">
+                <p> príjem: <span class="text-success">1100</span></p>
+                <p> výdavky: <span class="text-danger">650</span></p>
+                (ja viem, ze to moc nevychadza, nejdem to pocitat, je to len na ukazku)
+            </div>
+            <div class="col">
+                <canvas id="mojGraf3" width="100" height="100"></canvas>
+            </div>
+            <div class="col">
+                <canvas id="mojGraf4" width="100" height="100"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Naposledy pridané:</h3>
+        <div class="row">
+            <div class="col">
+                <dl>
+                    <dt> Prídavky </dt>
+                    <dd> Pravidelný prídavok na dieťa. <span class="badge badge-success"> 23 eur</span></dd>
+
+                    <dt> Nové topánky</dt>
+                    <dd>Nové topánky na zimu. <span class="badge badge-danger"> 53 eur</span></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container text-center mt-5">
+        <a href="#" class="btn btn-lg btn-primary">Prehľad</a>
+    </div>
+
+    <div class="container-fluid"  style="margin-top: 100px; background-color: #ECE2D0; padding: 20px 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <footer>Príjmy a výdavky - maj to pod kontrolou! Boostrap kurz learn2code.</footer>
+                </div>
             </div>
         </div>
     </div>
@@ -61,6 +126,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha512-vBmx0N/uQOXznm/Nbkp7h0P1RfLSj0HQrFSzV8m7rOGyj30fYAOKHYvCNez+yM8IrfnW0TCodDEjRqf6fodf/Q==" crossorigin="anonymous"></script>
+    <script src="grafy.js"> </script>
 </body>
 
 </html>
