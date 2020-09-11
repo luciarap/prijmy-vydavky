@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/cd34ca977e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap projekt</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light static-top" style="background-color: #ECE2D0;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="C:\Users\Lucia\Desktop\bootstrap-projekt\pics\mon.svg" alt="" width="35" height="35"/>
+                Príjmy a výdavky
+            </a>
+
+            <button class="navbar-toggler" type="button" data-target="#navigaciaId" data-toggle="collapse" aria-controls="navigaciaId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navigaciaId">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" >Pridaj príjem/výdaj</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="prehlad.html">Prehľad</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#">Filter</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Január</h1>
+        <div class="row">
+            <div class="col">
+                <div class = "card mb-3">
+                    <div class="card-header bg-success text-white">Prijmy</div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-responsive-sm">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Dátum</th>
+                                        <th scope="col">Položka</th>
+                                        <th scope="col">Kategória</th>
+                                        <th scope="col">Cena</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">15.1</th>
+                                        <td><a href="#">Výplata</a></td>
+                                        <td>pravidelné príjmy</td>
+                                        <td class="text-success">690</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">Upraviť <i class="far fa-edit ml-1"></i></a> <a href="#" class="text-danger" style="margin-left: 5px" title="Zmazať">
+                                            <i class="far fa-trash-alt ml-1" data-toggle="tooltip" data-placement="right" title="Zmazať"></i> </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15.1</th>
+                                        <td><a href="#">Prémia</a></td>
+                                        <td>špeciálne príjmy</td>
+                                        <td class="text-success">54</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">Upraviť <i class="far fa-edit ml-1"></i></a> <a href="#" class="text-danger" style="margin-left: 5px" title="Zmazať">
+                                            <i class="far fa-trash-alt ml-1" data-toggle="tooltip" data-placement="right" title="Zmazať"></i> </a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17.1</th>
+                                        <td><a href="#">Dar</a></td>
+                                        <td>špeciálne príjmy</td>
+                                        <td class="text-success">20</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">Upraviť <i class="far fa-edit ml-1"></i></a> <a href="#" class="text-danger" style="margin-left: 5px" title="Zmazať">
+                                            <i class="far fa-trash-alt ml-1"  data-toggle="tooltip" data-placement="right" title="Zmazať"></i> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h1>Január</h1>
+        <div class="row">
+            <div class="col">
+                <div class = "card mb-3">
+                    <div class="card-header bg-danger text-white">Výdavky</div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-responsive-sm">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Dátum</th>
+                                        <th scope="col">Položka</th>
+                                        <th scope="col">Kategória</th>
+                                        <th scope="col">Cena</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">15.1</th>
+                                        <td><a href="#">Oblečenie</a></td>
+                                        <td>nakupovanie</td>
+                                        <td class="text-danger">26</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">Upraviť <i class="far fa-edit ml-1"></i></a> <a href="#" class="text-danger" style="margin-left: 5px" title="Zmazať">
+                                            <i class="far fa-trash-alt ml-1" data-toggle="tooltip" data-placement="right" title="Zmazať"></i> </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15.1</th>
+                                        <td><a href="#">Splátka práčky</a></td>
+                                        <td>úvery</td>
+                                        <td class="text-danger">50</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">Upraviť <i class="far fa-edit ml-1"></i></a> <a href="#" class="text-danger" style="margin-left: 5px" title="Zmazať">
+                                            <i class="far fa-trash-alt ml-1" data-toggle="tooltip" data-placement="right" title="Zmazať"></i> </a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17.1</th>
+                                        <td><a href="#">Darček pre rodičov</a></td>
+                                        <td>dar</td>
+                                        <td class="text-danger">60</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">Upraviť <i class="far fa-edit ml-1"></i></a> <a href="#" class="text-danger" style="margin-left: 5px" title="Zmazať">
+                                            <i class="far fa-trash-alt ml-1"  data-toggle="tooltip" data-placement="right" title="Zmazať"></i> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="card-header bg-info text-white ">Príjmy / Výdaje</div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Dátum</th>
+                                <th scope="col">Položka</th>
+                                <th scope="col">Kategória</th>
+                                <th scope="col">Cena</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="table-danger">
+                                <th scope="row">1.1</th>
+                                <td><a href="#">splátka pračky</a></td>
+                                <td>úvery</td>
+                                <td class="text-danger">100</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <th scope="row">14.1</th>
+                                <td><a href="#">nové tričko</a></td>
+                                <td>oblečenie</td>
+                                <td class="text-danger">14.99</td>
+                            </tr>
+                            <tr class="table-success">
+                                <th scope="row">15.1</th>
+                                <td><a href="#">Výplata</a></td>
+                                <td>pravidelné príjmy</td>
+                                <td class="text-success">690</td>
+                            </tr>
+                            <tr class="table-success">
+                                <th scope="row">15.1</th>
+                                <td><a href="#">prémia</a></td>
+                                <td>špeciálne príjmy</td>
+                                <td class="text-success">54</td>
+                            </tr>
+                            <tr class="table-success">
+                                <th scope="row">17.1</th>
+                                <td><a href="#">dar</a></td>
+                                <td>špeciálne príjmy</td>
+                                <td class="text-success">20</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <th scope="row">19.1</th>
+                                <td><a href="#">dar</a></td>
+                                <td>dary</td>
+                                <td class="text-danger">50</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid"  style="margin-top: 100px; background-color: #ECE2D0; padding: 20px 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <footer>Príjmy a výdavky - maj to pod kontrolou! Boostrap kurz learn2code.</footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha512-vBmx0N/uQOXznm/Nbkp7h0P1RfLSj0HQrFSzV8m7rOGyj30fYAOKHYvCNez+yM8IrfnW0TCodDEjRqf6fodf/Q==" crossorigin="anonymous"></script>
+    <script src="grafy.js"> </script>
+    <script src="inicializacia.js"></script>
+</body>
+
+</html>
