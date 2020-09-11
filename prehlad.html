@@ -28,13 +28,13 @@
             <div class="collapse navbar-collapse" id="navigaciaId">
 
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#" >Pridaj príjem/výdaj</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="prehlad.html">Prehľad</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                       <a class="nav-link" href="#">Filter</a>
                     </li>
                 </ul>
@@ -45,70 +45,65 @@
         </div>
     </nav>
 
-    <div class="container mt-3">
-        <h2> Celkové príjmy - výdavky</h2>
-        <div class="row text-center"> 
-            <div class="col headline-size">
-                <span class="badge badge-pill badge-success">20 000</span> -
-                <span class="badge badge-pill badge-danger">22 000</span>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-4">
-        <h1> Tento mesiac</h1>
+    <div class="container mt-5">
         <div class="row">
-            <div class="col">
-                <p> príjem: <span class="text-success">1100</span></p>
-                <p> výdavky: <span class="text-danger">650</span></p>
-                (ja viem, ze to moc nevychadza, nejdem to pocitat, je to len na ukazku)
+            <div class="col-md-6">
+                <div class="card mb-6">
+                    <div class="card-header">2020</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Prehľad príjmov a výdavkov</h5>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mesiac</th>
+                                    <th scope="col">Príjem</th>
+                                    <th scope="col">Výdaj</th>
+                                    <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <th scope="row">1</th>
+                                    <td><a href="#" style="color: #582C4D ;">Január</a></td>
+                                    <td class="text-success">2000</td>
+                                    <td class="text-danger">3000</td>
+                                    <td class="text-danger"><i class="fas fa-angle-down"></i></td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">2</th>
+                                    <td><a href="#" style="color: #582C4D ;">Február</a></td>
+                                    <td class="text-success">1000</td>
+                                    <td class="text-danger">1200</td>
+                                    <td class="text-danger"><i class="fas fa-angle-down"></i></td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row" >3</th>
+                                    <td><a href="#" style="color: #582C4D ;">Marec</a></td>
+                                    <td class="text-success">650</td>
+                                    <td class="text-danger">640</td>
+                                    <td class="text-success"><i class="fas fa-angle-up"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>    
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <canvas id="mojGraf1" width="100" height="100"></canvas>
-            </div>
-            <div class="col">
-                <canvas id="mojGraf2" width="100" height="100"></canvas>
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="card mb-6">
+                    <div class="card-header">2019</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Prehľad príjmov a výdavkov</h5>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container mt-4">
-        <h1> Minulý mesiac</h1>
-        <div class="row">
-            <div class="col">
-                <p> príjem: <span class="text-success">1100</span></p>
-                <p> výdavky: <span class="text-danger">650</span></p>
-                (ja viem, ze to moc nevychadza, nejdem to pocitat, je to len na ukazku)
-            </div>
-            <div class="col">
-                <canvas id="mojGraf3" width="100" height="100"></canvas>
-            </div>
-            <div class="col">
-                <canvas id="mojGraf4" width="100" height="100"></canvas>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <h3>Naposledy pridané:</h3>
-        <div class="row">
-            <div class="col">
-                <dl>
-                    <dt> Prídavky </dt>
-                    <dd> Pravidelný prídavok na dieťa. <span class="badge badge-success"> 23 eur</span></dd>
-
-                    <dt> Nové topánky</dt>
-                    <dd>Nové topánky na zimu. <span class="badge badge-danger"> 53 eur</span></dd>
-                </dl>
-            </div>
-        </div>
-    </div>
+    </div> 
 
 
-    <div class="container text-center mt-5">
-        <a href="prehlad.html" class="btn btn-lg btn-primary">Prehľad</a>
-    </div>
 
     <div class="container-fluid"  style="margin-top: 100px; background-color: #ECE2D0; padding: 20px 0px;">
         <div class="container">
