@@ -1,0 +1,89 @@
+.navbar{
+    background-color: #00AFB9;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-scroll-style{
+    background-color: white;
+    border-bottom: 1px solid #0081A7;
+    transition: 0.3s all;
+}
+
+section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+#jumbo{
+    background-color: #FDFCDC;
+}
+
+
+
+.jumbotron{
+    background-color: transparent;
+}
+
+@media (min-width:1200px) {
+    .image{
+        background-image: url('https://www.freshbooks.com/wp-content/uploads/2018/02/home-computer-hero_opt@2x.jpg');
+        background-position: right center;
+        background-size: cover;
+    }
+}
+
+.i{
+    font-size: 10rem;
+}
+
+.i1 {
+    color: #FDFCDC
+}
+
+.i2 {
+    color: #FED9B7
+}
+
+.i3 {
+    color: #F07167
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+#carousel{
+    background-color: #0081A7 ;
+}
+
+#carousel .carousel-item{
+    height: 350px;
+}
+
+#ceny .card-header{
+    font-size: 1rem;
+}
+
+#ceny .card-header#best{
+    font: 2rem;
+}
+
+[data-toggle="collapse"] {
+    cursor: pointer;
+}
+
+#footerlist a{
+    color: gray;
+
+
+}
+
+#footerlist h4{
+    padding-bottom: 0.5rem;
+}
+
+#footerlist{
+    line-height: 2rem;
+}
